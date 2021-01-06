@@ -7,8 +7,9 @@
 //
 
 import SwiftUI
-let types = ["Legs", "Shoulders","Cardio","Abs","Triceps","Biceps", "Back", "Chest"]
+
 struct ContentView: View {
+    let types : [String] = ["Legs", "Shoulders","Cardio","Abs","Triceps","Biceps", "Back", "Chest"]
     var body: some View {
         
         NavigationView{
@@ -18,7 +19,7 @@ struct ContentView: View {
             .padding(/*@START_MENU_TOKEN@*/.horizontal, 110.0/*@END_MENU_TOKEN@*/)
             .border(Color.black, width: 5.0)
         ScrollView {
-            types.forEach{ type in
+            ForEach(types){ type in
                 NavigationLink(destination: catalog(workoutType: type)) {
                 Text(/*@START_MENU_TOKEN@*/"Cardio"/*@END_MENU_TOKEN@*/)
                 .font(.title)
