@@ -13,6 +13,7 @@
 		CD1428FB25A3B43100D48DCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1428FA25A3B43100D48DCC /* Assets.xcassets */; };
 		CD1428FE25A3B43100D48DCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1428FD25A3B43100D48DCC /* Preview Assets.xcassets */; };
 		CD14290125A3B43100D48DCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1428FF25A3B43100D48DCC /* LaunchScreen.storyboard */; };
+		CD14290925A3F76000D48DCC /* catalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD14290825A3F76000D48DCC /* catalog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CD1428FD25A3B43100D48DCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD14290025A3B43100D48DCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD14290225A3B43100D48DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD14290825A3F76000D48DCC /* catalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catalog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				CD1428F425A3B43000D48DCC /* AppDelegate.swift */,
 				CD1428F625A3B43000D48DCC /* SceneDelegate.swift */,
 				CD1428F825A3B43000D48DCC /* ContentView.swift */,
+				CD14290825A3F76000D48DCC /* catalog.swift */,
 				CD1428FA25A3B43100D48DCC /* Assets.xcassets */,
 				CD1428FF25A3B43100D48DCC /* LaunchScreen.storyboard */,
 				CD14290225A3B43100D48DCC /* Info.plist */,
@@ -148,6 +151,7 @@
 			files = (
 				CD1428F525A3B43000D48DCC /* AppDelegate.swift in Sources */,
 				CD1428F725A3B43000D48DCC /* SceneDelegate.swift in Sources */,
+				CD14290925A3F76000D48DCC /* catalog.swift in Sources */,
 				CD1428F925A3B43000D48DCC /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
